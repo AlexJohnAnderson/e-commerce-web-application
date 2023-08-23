@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <title>Search Shop</title>
+</head>
+<body>
+    <nav>
+        <ul>
+      		<a href="./landingPostLogin.php" alt="Back to Main Page:" />Back to Shop</a>
+        </ul>
+    </nav>
+    <section>
+        <div class="card">
+            <h3>Filter Products:</h3>
+            <form action="filtersPagePostLogin.php" method="post">
+                Product Name: <input type="text" name="productName" /><br />
+                Cost: <input type="text" name="cost" /><br />
+                Quantity: <input type="text" name="quantity" /><br />
+                Rating: <input type="text" name="rating" /><br />
+                Manufacturer: <input type="text" name="manufacturer" /><br />
+                Category: <input type="text" name="category" /><br />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" type="text/css" />
+    <title>Login</title>
+
+    <style type="text/css">
+        body{
+        background-color: #EAEDED;
+        font-family: Arial, sans-serif;
+        }
+        .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        height: 200px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        }
+
+        input[type=submit] {
+        background-color: #c94225;
+        border: none;
+        color: #fff;
+        padding: 15px 30px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+
+        a {
+        color: #c94225;
+        border: 1px solid transparent;
+        padding: 7px;
+        border-radius: 3px;
+        font-size: 14px;
+        }
+
+        a:hover {
+        border: 1px solid rgba(255,255,255, .4);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="landingPreLogin.php">Back to Shop</a>
+    </nav>
+    <div class="card">
+        <form action="login.php" method="post">
+            First Name: <input required type="text" name="firstName" /><br/><br/>
+            Last Name: <input required type="text" name="lastName" /><br/><br/>
+            Password: <input required type="password" name="password" /><br/><br/>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+</html>

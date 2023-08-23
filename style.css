@@ -1,0 +1,68 @@
+form input {
+display: block;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 50%;
+box-sizing: border-box;
+}
+
+form input[type="password"] {
+letter-spacing: 0.3em;
+}
+
+body{
+background-color: #EAEDED;
+font-family: Arial, sans-serif;
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+height: 700px;
+margin: auto;
+text-align: left;
+font-family: arial;
+}
+
+input[type=submit] {
+background-color: #c94225;
+border: none;
+color: #fff;
+padding: 15px 30px;
+text-decoration: none;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.styled-table {
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 0.9em;
+font-family: sans-serif;
+min-width: 400px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+background-color: #c94225;
+color: #ffffff;
+text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+padding: 20px 30px;
+}
+
+.styled-table tbody tr {
+border-bottom: 1px solid #c94225;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+border-bottom: 2px solid #c94225;
+}
